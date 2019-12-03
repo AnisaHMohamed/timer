@@ -26,7 +26,7 @@ for (let i =0;i<sortedArgs.length;i++){
   if (!isNaN(sortedArgs[i]) && sortedArgs[i]>0 ){
 
   setTimeout(() => {process.stdout.write('\x07');
-//console.log(sortedArgs[i])
+console.log(sortedArgs[i])
 }, sortedArgs[i]*1000);
 }
 
